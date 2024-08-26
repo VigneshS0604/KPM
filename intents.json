@@ -1,0 +1,857 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you?",
+                "Is anyone there?",
+                "Good day",
+                "Hey",
+                "Helo",
+                "KPM",
+                "Greetings",
+                "What's up?",
+                "How's it going?",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How do you do?",
+                "What's new?",
+                "How's everything?",
+                "Yo",
+                "Hiya",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello! I'm happy to assist you. How can I help today?",
+                "Hi there! How can I assist you today?",
+                "Welcome! How may I help you?",
+                "Greetings! What can I do for you?",
+                "Hey! Need any assistance?",
+                "Hello! What can I help you with?",
+                "Hi! How can I make your day better?",
+                "Good to see you! How can I assist?",
+                "Hello! How's everything going?",
+                "Hi! What brings you here today?",
+                "Hey there! What can I help you with?",
+                "Welcome! Anything you need help with?",
+                "Hello! Feel free to ask me anything.",
+                "Hi! How can I be of service?",
+                "Good day! How may I assist you today?",
+                "Hello! What can I do for you today?",
+                "Hiya! Need any help?"
+            ]
+        },        
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "Name",
+                "Who are you?",
+                "Can you tell me your name?",
+                "What should I call you?",
+                "Who am I speaking with?",
+                "What's your name?",
+                "Introduce yourself",
+                "Tell me your name",
+                "What do you go by?",
+                "What can I call you?",
+                "What's your title?",
+                "Are you a bot?",
+                "What's your designation?"
+            ],
+            "responses": [
+                "I'm KPM bot, here to assist you!",
+                "My name is KPM bot, at your service.",
+                "I'm known as the KPM bot. How can I help?",
+                "I go by KPM bot. How can I assist you today?",
+                "You can call me KPM bot. What can I do for you?",
+                "Hi! I'm KPM bot. How can I be of help?",
+                "Hello! My name is KPM bot. How may I assist you?",
+                "I'm KPM bot, your virtual assistant. How can I assist you today?",
+                "You can address me as KPM bot. What do you need help with?",
+                "I'm the KPM bot. Feel free to ask me anything!",
+                "My title is KPM bot. How can I make your day easier?",
+                "You can call me KPM bot. What can I help you with today?"
+            ]
+        },  
+        {
+            "tag": "greet_word",
+            "patterns": [
+                "How are you?",
+                "how about you?",
+                "What's up?",
+                "How's it going?",
+                "How are you doing?",
+                "How have you been?"
+            ],
+            "responses": [
+                "I'm good, thank you!",
+                "I'm doing well, thanks for asking!",
+                "All good here, how about you?",
+                "I'm fine, how can I assist you today?",
+                "I'm doing well, thanks for your concern!",
+                "Everything's going great. How can I help you?"
+            ]
+        },               
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later",
+                "Farewell",
+                "Talk to you later",
+                "Have a great day",
+                "See you soon",
+                "Take care",
+                "I'm leaving",
+                "I'm done here",
+                "Until next time",
+                "See you around"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! Feel free to return if you have more questions.",
+                "Farewell! Wishing you all the best!",
+                "Talk to you later! Have a wonderful day!",
+                "Take care and have a great day!",
+                "Until next time! Don't hesitate to reach out again.",
+                "See you around! If you need any help, just let me know."
+            ]
+        },        
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks ",
+                "Thank you",
+                "That's helpful",
+                "Much appreciated",
+                "Thanks a lot",
+                "Thank you very much",
+                "I appreciate it",
+                "Thanks for your help",
+                "You're a lifesaver",
+                "Thanks for that",
+                "Many thanks",
+                "I'm grateful",
+                "That's great"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime! Glad I could assist.",
+                "It was my pleasure!",
+                "I'm here to help. Glad you found it useful!",
+                "You're very welcome! If you need anything else, just ask.",
+                "No problem at all! Feel free to reach out anytime.",
+                "Glad I could help! Don't hesitate to ask if you need more assistance.",
+                "You're welcome! If there's anything else you need, just let me know."
+            ]
+        },        
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours?",
+                "When are you open?",
+                "What time do you close?",
+                "Store hours?",
+                "What time do you open?",
+                "What are your operating hours?",
+                "When is the store open?",
+                "What are the business hours?",
+                "What are your opening hours?",
+                "Can you tell me the hours of operation?",
+                "Until what time are you open?",
+                "Do you have an offline store?",
+                "Are you open at a physical location?",
+                "Is your store open in person?"
+            ],
+            "responses": [
+                "We are open from 9 AM to 9 PM every day.",
+                "Our operating hours are from 9 AM to 9 PM daily.",
+                "We operate daily from 9 AM to 9 PM.",
+                "You can visit us from 9 AM to 9 PM, seven days a week.",
+                "Our store hours are 9 AM to 9 PM every day.",
+                "We are available from 9 AM until 9 PM daily.",
+                "Yes, we have an offline store. It's open from 9 AM to 9 PM."
+            ]
+        },        
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How do I get to your store?",
+                "Store location?",
+                "Where is your store?",
+                "What is your location?",
+                "Can you give me your address?",
+                "Where can I find you?",
+                "How do I reach your store?",
+                "Tell me your location",
+                "What's the address of your store?",
+                "How can I find your store?"
+            ],
+            "responses": [
+                "You can find us at KPM SuperMarket. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602",
+                "Our store is located at KPM SuperMarket. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602",
+                "We are situated at KPM SuperMarket. Feel free to visit us!. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602",
+                "Our address is KPM SuperMarket. See you there!. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602",
+                "You can find our location at KPM SuperMarket. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602",
+                "We are located at KPM SuperMarket. Let us know if you need directions. Address: Oppsite to muruga theatre, KK Rd, Tamil Nadu 605602"
+            ]
+        },   
+        {
+            "tag": "Product",
+            "patterns": [
+                "What are the products you are selling?",
+                "What products do you sell?",
+                "Can you list your products?",
+                "What do you sell?",
+                "Your selling products?",
+                "Product",
+                "what are the product available in kpm",
+                "What items are available?",
+                "Tell me about your products",
+                "What's in your product range?",
+                "What do you offer?",
+                "List the products you have",
+                "Can you show me your products?",
+                "What products can I buy from you?",
+                "Give me details about your products",
+                "What are the items you sell?",
+                "What's available in your store?",
+                "What can I purchase from you?",
+                "What kinds of products do you have?",
+                "What are your available products?",
+                "Show me your product list",
+                "Can you provide details on your products?"
+            ],
+            "responses": [
+                "We offer a variety of <b>Shine</b> <b>Sheshine</b> products including: <h3>Shine</h3><ul><li>Lip Stick</li><li>Face Serum</li><li>Lip Serum</li><li>Lip Balm</li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "Our product range <b>Shine</b> <b>Sheshine</b> includes: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "Here are some of our <b>Shine</b> <b>Sheshine</b> products: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "We sell a range of <b>Shine</b> <b>Sheshine</b> products such as: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "Our products include <b>Shine</b> <b>Sheshine</b>: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "You can find various <b>Shine</b> <b>Sheshine</b> products like: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "We provide a selection of <b>Shine</b> <b>Sheshine</b> products: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "Our selection includes <h3>Shine</h3>: <ul><li>Face Serum</li><li>Lip Serum</li><li>Lip Stick</li><li>Lip Balm</li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>",
+                "We have an assortment of <b>Shine</b> <b>Sheshine</b> products including: <h3>Shine</h3><ul><li>Face Serum</li><li>Lip Stick</li><li>Lip Serum</li><li>Lip Balm</li></li><li>Skin Care Oil</li><li>Kajal</li><li>Edible Oil</li><li>Lip Scrub</li><li>Natural Soap</li><li>Baby Natural Soap</li><li>Face Cleansing Powder</li></ul><h3>SheShine</h3><ul><li>Earrings</li><li>Bangles</li><li>AD Sets</li><li>Jewel Sets</li></ul>"
+            ]
+        },        
+        {
+            "tag": "lipstick",
+            "patterns": [
+                "Lip stick",
+                "Show me the lipstick",
+                "Lipstick details",
+                "I want to see the lipstick",
+                "Lipstick",
+                "What lipstick do you have?",
+                "Tell me about the lipstick",
+                "Can you show me your lipstick?",
+                "What types of lipstick do you offer?",
+                "Give me details on your lipstick",
+                "What are the features of your lipstick?",
+                "Show me the types of lipstick you have",
+                "Tell me more about the lipstick"
+            ],
+            "responses": [
+                "Transform your lips with our Sweet Orange Rosehip Lipstick. It's designed to banish pigmentation and enhance your natural beauty with deep hydration and a radiant glow.<br><img src='/static/shopping.jpg' alt='Lipstick' width='248' height='450'>",
+                "Our Sweet Orange Rosehip Lipstick provides deep hydration and a radiant glow, perfect for enhancing your natural beauty while addressing pigmentation issues.<br><img src='/static/shopping.jpg' alt='Lipstick' width='248' height='450'>",
+                "Check out our Sweet Orange Rosehip Lipstick! It offers deep hydration and a stunning glow, designed to improve pigmentation and enhance your look.<br><img src='/static/shopping.jpg' alt='Lipstick' width='248' height='450'>",
+                "Explore our Sweet Orange Rosehip Lipstick, crafted to provide deep hydration and a radiant appearance while targeting pigmentation issues.<br><img src='/static/shopping.jpg' alt='Lipstick' width='248' height='450'>",
+                "Here's the Sweet Orange Rosehip Lipstick. It helps in banishing pigmentation and adds a radiant glow to your lips while offering deep hydration.<br><img src='/static/shopping.jpg' alt='Lipstick' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "Lipstick_types",
+            "patterns": [
+                "types of lipstick types do you have?",
+                "lipsticktypes",
+                "lip stick type",
+                "Types of lipstick",
+                "what are the types of lipstick available",
+                "What are the lipstick types?",
+                "Do you have different lipstick types?",
+                "What are the flavors available in lipstick?",
+                "List the types of lipstick",
+                "Tell me about the different lipstick",
+                "What varieties of lipstick do you offer?",
+                "different lipstick are there?",
+                "What types of lipstick are available?",
+                "What kind of lipstick do you have?",
+                "Can you show me the different lipstick types?",
+                "What lipstick options do you have?",
+                "Describe the types of lipstick you offer",
+                "Tell me about your lipstick range",
+                "What are the different kinds of lipstick?"
+            ],
+            "responses": [
+                "We have 2 types of lipstick. Here are the details:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li> Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "Our lipstick come in 2 different types:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "Explore our range of lipstick. We offer 2 types:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</ul><br>",
+                "We offer the following types of lipstick:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "Here are the types of lipstick we provide:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "Our selection of lipstick includes:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "We offer 2  distinct lipstick:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "Check out our lipstick. We have:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>",
+                "The lipstick we offer are:<br><ul><li> Lip & Cheek Tint (2 in 1) Lipstick</li><li>Sweet Orange Rosehip Lipstick</li></ul><br>"
+            ]
+        },                               
+        {
+            "tag": "lipbalm_types",
+            "patterns": [
+                "of lip balm do you have?",
+                "Lip balm types",
+                "lipbalm",
+                "lip balm",
+                "Types of lip balm",
+                "What are the lip balm types?",
+                "Do you have different lip balm types?",
+                "Flavors of lip balm",
+                "What flavors are available in lip balm?",
+                "List the types of lip balm",
+                "What kinds of lip balm do you offer?",
+                "Tell me about your lip balm varieties",
+                "Show me the lip balm flavors",
+                "What lip balm options do you have?",
+                "Can you provide details on lip balm types?",
+                "What are the available flavors in lip balm?"
+            ],
+            "responses": [
+                "We have 8 types of lip balm. Here are the options:<ul><li>Alkanet</li><li>Lavender Lemon</li><li>Rose</li><li>Rosehip</li><li>Teatree</li><li>Tinted Beetred</li><li>Tinted Pink</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Our lip balm collection includes 8 different types:<ul><li>Alkanet</li><li>Lavender Lemon</li><li>Rose</li><li>Rosehip</li><li>Teatree</li><li>Tinted Beetred</li><li>Tinted Pink</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "We offer a variety of 8 lip balm types:<ul><li>Alkanet</li><li>Lavender Lemon</li><li>Rose</li><li>Rosehip</li><li>Teatree</li><li>Tinted Beetred</li><li>Tinted Pink</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Our selection of lip balms includes 8 different types:<ul><li>Alkanet</li><li>Lavender Lemon</li><li>Rose</li><li>Rosehip</li><li>Teatree</li><li>Tinted Beetred</li><li>Tinted Pink</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Explore our 8 types of lip balm:<ul><li>Alkanet</li><li>Lavender Lemon</li><li>Rose</li><li>Rosehip</li><li>Teatree</li><li>Tinted Beetred</li><li>Tinted Pink</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>"
+            ]
+        },             
+        {
+            "tag": "lipscrub",
+            "patterns": [
+                "Lip scrub",
+                "Lipscrub",
+                "Show me the lip scrub",
+                "Lip scrub details",
+                "I want to see the lip scrub",
+                "Show me the lipscrub",
+                "Lipscrub details",
+                "I want to see the lipscrub",
+                "Can you show me the lip scrub?",
+                "What does the lip scrub look like?",
+                "What are the details of your lip scrub?",
+                "Show me the details of the lipscrub",
+                "What is included in the lip scrub?",
+                "Give me more information about the lip scrub"
+            ],
+            "responses": [
+                "Here are the details of the Lip Scrub:<br><img src='/static/LipScrub.jpg' alt='Lip Scrub' width='248' height='450'>",
+                "Check out our Lip Scrub! Here's an image with details:<br><img src='/static/LipScrub.jpg' alt='Lip Scrub' width='248' height='450'>",
+                "Discover the features of our Lip Scrub below:<br><img src='/static/LipScrub.jpg' alt='Lip Scrub' width='248' height='450'>",
+                "Here's what our Lip Scrub looks like:<br><img src='/static/LipScrub.jpg' alt='Lip Scrub' width='248' height='450'>",
+                "Explore the details of our Lip Scrub in the image below:<br><img src='/static/LipScrub.jpg' alt='Lip Scrub' width='248' height='450'>"
+            ]
+        },   
+        {
+            "tag": "lipserum",
+            "patterns": [
+                "Lip serum",
+                "Lipserum",
+                "Show me the lip serum",
+                "Lip serum details",
+                "I want to see the lip serum",
+                "Show me the lipserum",
+                "lipserum details",
+                "I want to see the lipserum",
+                "Can you show me the lip serum?",
+                "What does the lip serum look like?",
+                "What are the details of your lip serum?",
+                "Show me the details of the lipserum",
+                "What is included in the lip serum?",
+                "Give me more information about the lip serum"
+            ],
+            "responses": [
+                "Here are the details of the Lip serum:<br><img src='/static/LipSerum.jpg' alt='LipSerum' width='248' height='450'>",
+                "Check out our Lip serum! Here's an image with details:<br><img src='/static/LipSerum.jpg' alt='LipSerum' width='248' height='450'>",
+                "Discover the features of our Lip serum below:<br><img src='/static/LipSerum.jpg' alt='LipSerum' width='248' height='450'>",
+                "Here's what our Lip serum looks like:<br><img src='/static/LipSerum.jpg' alt='LipSerum' width='248' height='450'>",
+                "Explore the details of our Lip serum in the image below:<br><img src='/static/LipSerum.jpg' alt='LipSerum' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "lip_Serum_types",
+            "patterns": [
+                "types of lip serum do you have?",
+                "lip serum types",
+                "lipserum type",
+                "Types of lip serum",
+                "What are the lip serum types?",
+                "Do you have different lip serum types?",
+                "What are the flavors available in lip serum?",
+                "List the types of lip serum",
+                "Tell me about the different lip serums",
+                "What varieties of lip serum do you offer?",
+                "different lip serums are there?",
+                "What types of lip serum are available?",
+                "What kind of lip serums do you have?",
+                "Can you show me the different lip serum types?",
+                "What lip serum options do you have?",
+                "Describe the types of lip serums you offer",
+                "Tell me about your lip serum range",
+                "What are the different kinds of lip serum?"
+            ],
+            "responses": [
+                "We have 3 types of lip serum. Here are the details:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "Our lip serums come in 3 different types:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "Explore our range of lip serums. We offer 3 types:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "We offer the following types of lip serum:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "Here are the types of lip serum we provide:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "Our selection of lip serums includes:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "We offer 3 distinct lip serums:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "Check out our lip serums. We have:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>",
+                "The lip serums we offer are:<br><ul><li>Carrot seed oil lip serum</li><li>Orange lip serum</li><li>Peppermint & lemon</li></ul><br>"
+            ]
+        },
+        {
+            "tag": "kajal",
+            "patterns": [
+                "Show me the kajal",
+                "Kajal details",
+                "I want to see the kajal",
+                "Kajal",
+                "What does your kajal look like?",
+                "Tell me about the kajal",
+                "Can you show me the kajal?",
+                "Kajal product details",
+                "Give me more information about the kajal",
+                "What are the features of the kajal?",
+                "Show me details of the kajal",
+                "What is the price of the kajal?",
+                "How does the kajal look?",
+                "Describe the kajal",
+                "Can you show me a picture of the kajal?",
+                "What's special about your kajal?",
+                "Is there an image of the kajal?",
+                "Can I see the kajal?",
+                "Tell me the specifications of the kajal",
+                "Show me what the kajal looks like",
+                "I would like to know more about the kajal",
+                "Could you provide details on the kajal?",
+                "Do you have an image of the kajal?"
+            ],
+            "responses": [
+                "Here are the details of the Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Check out our Kajal! Here's an image with details:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Discover the Kajal features below:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Here's what our Kajal looks like:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Explore the Kajal details in the image below:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Here's the Kajal you asked for:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "You can see the Kajal details here:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Take a look at our Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "This is our Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Check this out! Here's the Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Our Kajal is shown below:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Here's an image of the Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Looking for the Kajal? Here it is:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "The Kajal details are as follows:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Here's what the Kajal looks like:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "You can view our Kajal here:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Find out more about our Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "See the Kajal details here:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "This is how our Kajal looks:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>",
+                "Here’s a detailed look at our Kajal:<br><img src='/static/Kajal.jpg' alt='Kajal' width='248' height='450'>"
+            ]
+        },                          
+        {
+            "tag": "kajal_powder",
+            "patterns": [
+                "Show me the kajal powder",
+                "Kajal powder details",
+                "I want to see the kajal powder",
+                "Kajal powder",
+                "Kajalpowder",
+                "What does your kajal powder look like?",
+                "Tell me about the kajal powder",
+                "Can you show me the kajal powder?",
+                "Details of the kajal powder",
+                "Give me more information about the kajal powder",
+                "What are the features of the kajal powder?",
+                "Show me the details of the kajal powder"
+            ],
+            "responses": [
+                "Here are the details of the Kajal Powder:<br><img src='/static/Powder_Kajal.jpg' alt='Kajal Powder' width='248' height='450'>",
+                "Check out our Kajal Powder! Here's an image with details:<br><img src='/static/Powder_Kajal.jpg' alt='Kajal Powder' width='248' height='450'>",
+                "Discover the Kajal Powder features below:<br><img src='/static/Powder_Kajal.jpg' alt='Kajal Powder' width='248' height='450'>",
+                "Here's what our Kajal Powder looks like:<br><img src='/static/Powder_Kajal.jpg' alt='Kajal Powder' width='248' height='450'>",
+                "Explore the Kajal Powder details in the image below:<br><img src='/static/Powder_Kajal.jpg' alt='Kajal Powder' width='248' height='450'>"
+            ]
+        },                  
+        {
+            "tag": "face_Serum",
+            "patterns": [
+                "Show me the face serum",
+                "Face serum details",
+                "I want to see the face serum",
+                "Serum",
+                "Face serum",
+                "Faceserum",
+                "Can you show me the face serum?",
+                "Tell me about the face serum",
+                "What does the face serum look like?",
+                "Details about the face serum",
+                "Give me more information about the face serum",
+                "Show me the details of the serum",
+                "What are the features of the face serum?",
+                "Describe the face serum",
+                "What can you tell me about the face serum?",
+                "Show me an image of the face serum",
+                "Face serum overview",
+                "Information about face serum"
+            ],
+            "responses": [
+                "Here are the details of the face serum:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Check out our Face Serum! Here's an image with details:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Discover the features of our Face Serum below:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Here's what our Face Serum looks like:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Explore the Face Serum details in the image below:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Here's an overview of our Face Serum:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Learn more about our Face Serum here:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Get detailed information on our Face Serum:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>",
+                "Here's an image of the Face Serum with more information:<br><img src='/static/Serum.jpg' alt='Serum' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "skin_care_oil",
+            "patterns": [
+                "Show me the skin care oil",
+                "skin care oil details",
+                "I want to see the skin care oil",
+                "skincareoil",
+                "skincare oil",
+                "skin care oil",
+                "Can you show me the skin care oil?",
+                "Tell me about the skin care oil",
+                "What does the skin care oil look like?",
+                "Details about the skin care oil",
+                "Give me more information about the skin care oil",
+                "Show me the details of the skin care oil",
+                "What are the features of the skin care oil?",
+                "Describe the skin care oil",
+                "What can you tell me about the skin care oil?",
+                "Show me an image of the skin care oil",
+                "skin care oil overview",
+                "Information about skin care oil"
+            ],
+            "responses": [
+                "Here are the details of the skin care oil:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Check out our skin care oil! Here's an image with details:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Discover the features of our skin care oil below:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Here's what our skin care oil looks like:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Explore the skin care oil details in the image below:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Here's an overview of our skin care oil:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Learn more about our skin care oil here:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Get detailed information on our skin care oil:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>",
+                "Here's an image of the skin care oil with more information:<br><img src='/static/skincare.jpg' alt='skincare' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "face_Serum_types",
+            "patterns": [
+                "types of face serum do you have?",
+                "Face serum types",
+                "Faceserum type",
+                "Types of face serum",
+                "What are the face serum types?",
+                "Do you have different face serum types?",
+                "What are the flavors available in face serum?",
+                "List the types of face serum",
+                "Tell me about the different face serums",
+                "What varieties of face serum do you offer?",
+                "different face serums are there?",
+                "What types of face serum are available?",
+                "What kind of face serums do you have?",
+                "Can you show me the different face serum types?",
+                "What face serum options do you have?",
+                "Describe the types of face serums you offer",
+                "Tell me about your face serum range",
+                "What are the different kinds of face serum?"
+            ],
+            "responses": [
+                "We have 3 types of face serum. Here are the details:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "Our face serums come in 3 different types:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "Explore our range of face serums. We offer 3 types:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "We offer the following types of face serum:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "Here are the types of face serum we provide:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "Our selection of face serums includes:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "We offer 3 distinct face serums:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "Check out our face serums. We have:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>",
+                "The face serums we offer are:<br><ul><li>Glow Serum</li><li>Golden Serum</li><li>Serum for Acne</li></ul><br>"
+            ]
+        },                        
+        {
+            "tag": "Edible_oil",
+            "patterns": [
+                "Show me the oil",
+                "Oil details",
+                "I want to see the oil",
+                "Oil",
+                "Edible oil",
+                "Types of oil",
+                "What are the flavors available in oil?",
+                "Can you show me the oil products?",
+                "Tell me about the different types of oil",
+                "What kinds of oil do you offer?",
+                "Describe the edible oils you have",
+                "What are the varieties of oil you sell?",
+                "Show me the different oils",
+                "Give me details about your oil products",
+                "What types of oil can I find here?",
+                "What kinds of edible oils are available?",
+                "List the edible oils you have",
+                "What oil products do you sell?",
+                "What are the options for edible oils?",
+                "Which oils are available in your store?",
+                "What are the different types of oil available?"
+            ],
+            "responses": [
+                "We have 3 kinds of edible oil. Here are the options:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Explore our range of edible oils. We offer:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Here are the types of edible oil we have:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Our selection of edible oils includes:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Check out our variety of edible oils:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "We offer a range of edible oils including:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Our edible oil options are:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>",
+                "Discover our edible oils:<ul><li>Coconut Oil</li><li>Gingelly Oil</li><li>Groundnut Oil</li></ul><br><img src='/static/Powder_Kajal.jpg' alt='Edible Oil' width='248' height='450'>"
+            ]
+        },             
+        {
+            "tag": "baby_soap",
+            "patterns": [
+                "Show me the baby soap",
+                "Baby soap details",
+                "I want to see the baby soap",
+                "Baby soap",
+                "What does the baby soap look like?",
+                "Can you show me the baby soap?",
+                "Tell me about the baby soap",
+                "What are the features of the baby soap?",
+                "Baby soap information",
+                "Describe the baby soap",
+                "What type of baby soap do you have?",
+                "Give me details about the baby soap",
+                "Show me the different baby soaps",
+                "What makes your baby soap special?",
+                "Can you provide information on the baby soap?",
+                "What is included in your baby soap range?",
+                "Details about baby soap products"
+            ],
+            "responses": [
+                "Here are the details of the Baby Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Check out our Baby Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Discover more about our Baby Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Here is some information about our Baby Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "View the Baby Soap details here:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Our Baby Soap is available with the following details:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>"
+            ]
+        },{
+            "tag": "baby_soap_types",
+            "patterns": [
+                "of baby soap do you have?",
+                "baby soap types",
+                "baby soap type",
+                "Types of baby soap",
+                "What are the baby soap types?",
+                "Do you have different baby soap types?",
+                "Flavors of baby soap",
+                "What flavors are available in baby soap?",
+                "List the types of baby soap",
+                "What kinds of baby soap do you offer?",
+                "Tell me about your baby soap varieties",
+                "Show me the baby soap flavors",
+                "What baby soap options do you have?",
+                "Can you provide details on baby soap types?",
+                "What are the available flavors in baby soap?"
+            ],
+            "responses": [
+                "We have 11 types of baby soap. Here are the details:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "Our baby soap come in 11 different types:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "Explore our range of baby soap. We offer 11 types:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "We offer the following types of baby soap:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "Here are the types of baby soap we provide:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "Our selection of baby soap includes:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "We offer 11 distinct baby soap:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "Check out our baby soap. We have:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>",
+                "The baby soap we offer are:<br><ul><li>Baby bath soap</li><li>Charcoal cold process soap</li><li>Luxury bath soap</li><li>Potato tomato bath bar</li><li>Saffron bath bar</li><li>Rosehip and rose bath bar</li><li>Baby bath powder (Prince)</li><li>Serum for Acne</li><li>Wild Turmeric bath soap</li><li>Bath powder</li><li>Baby bath powder (Princess)</li><li>Herbal bath powder (Adult)</li></ul><br>"
+            ]
+        },
+        {
+            "tag": "Natural_soap",
+            "patterns": [
+                "Show me the natural soap",
+                "natural soap details",
+                "I want to see the natural soap",
+                "natural soap",
+                "What does the natural soap look like?",
+                "Can you show me the natural soap?",
+                "Tell me about the natural soap",
+                "What are the features of the natural soap?",
+                "natural soap information",
+                "Describe the natural soap",
+                "What type of natural soap do you have?",
+                "Give me details about the natural soap",
+                "Show me the different natural soaps",
+                "What makes your natural soap special?",
+                "Can you provide information on the natural soap?",
+                "What is included in your natural soap range?",
+                "Details about natural soap products"
+            ],
+            "responses": [
+                "Here are the details of the natural Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Check out our natural Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Discover more about our natural Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Here is some information about our natural Soap:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "View the natural Soap details here:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>",
+                "Our natural Soap is available with the following details:<br><img src='/static/Baby_soap.jpg' alt='Baby Soap' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "natural_soap_types",
+            "patterns": [
+                "of natural soap do you have?",
+                "natural soap types",
+                "Natural soap type",
+                "Types of natural soap",
+                "What are the natural soap types?",
+                "Do you have different natural soap types?",
+                "Flavors of natural soap",
+                "What flavors are available in natural soap?",
+                "List the types of natural soap",
+                "What kinds of natural soap do you offer?",
+                "Tell me about your natural soap varieties",
+                "Show me the natural soap flavors",
+                "What natural soap options do you have?",
+                "Can you provide details on natural soap types?",
+                "What are the available flavors in natural soap?"
+            ],
+            "responses": [
+                "We have 9 types of natural soap. Here are the options:<ul><li>French pink clay and rosehip bath soap </li><li>natural beetroot bath soap</li><li>sandalwood bath soap</li><li>potato and tomato bath soap</li><li>natural kaolin clay soap</li><li>natural coconut and glacial marine clay soap</li><li>natural serbian blue clay soap</li><li>natural brazilian purple clay soap</li><li>manjishtha skin whitening soap</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Our natural soap collection includes 9 different types:<ul><li>French pink clay and rosehip bath soap </li><li>natural beetroot bath soap</li><li>sandalwood bath soap</li><li>potato and tomato bath soap</li><li>natural kaolin clay soap</li><li>natural coconut and glacial marine clay soap</li><li>natural serbian blue clay soap</li><li>natural brazilian purple clay soap</li><li>manjishtha skin whitening soap</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "We offer a variety of 9 natural soap types:<ul><li>French pink clay and rosehip bath soap </li><li>natural beetroot bath soap</li><li>sandalwood bath soap</li><li>potato and tomato bath soap</li><li>natural kaolin clay soap</li><li>natural coconut and glacial marine clay soap</li><li>natural serbian blue clay soap</li><li>natural brazilian purple clay soap</li><li>manjishtha skin whitening soap</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Our selection of natural soap includes 9 different types:<ul><li>French pink clay and rosehip bath soap </li><li>natural beetroot bath soap</li><li>sandalwood bath soap</li><li>potato and tomato bath soap</li><li>natural kaolin clay soap</li><li>natural coconut and glacial marine clay soap</li><li>natural serbian blue clay soap</li><li>natural brazilian purple clay soap</li><li>manjishtha skin whitening soap</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>",
+                "Explore our 9 types of natural soap:<ul><li>French pink clay and rosehip bath soap </li><li>natural beetroot bath soap</li><li>sandalwood bath soap</li><li>potato and tomato bath soap</li><li>natural kaolin clay soap</li><li>natural coconut and glacial marine clay soap</li><li>natural serbian blue clay soap</li><li>natural brazilian purple clay soap</li><li>manjishtha skin whitening soap</li></ul><br><img src='/static/Lipbalm.jpg' alt='Lip balm' width='248' height='450'>"
+            ]
+        },                
+        {
+            "tag": "face_cleansing_powder",
+            "patterns": [
+                "Show me the face cleansing powder",
+                "Face cleansing powder details",
+                "I want to see the face cleansing powder",
+                "Face cleansing powder",
+                "What does the face cleansing powder look like?",
+                "Can you show me the face cleansing powder?",
+                "Tell me about the face cleansing powder",
+                "Face cleansing powder information",
+                "Describe the face cleansing powder",
+                "What are the features of the face cleansing powder?",
+                "Give me details about the face cleansing powder",
+                "Show me the different face cleansing powders",
+                "What makes your face cleansing powder special?",
+                "Can you provide information on the face cleansing powder?",
+                "What is included in your face cleansing powder range?",
+                "Details about face cleansing powder products"
+            ],
+            "responses": [
+                "Here are the details of the Face Cleansing Powder:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>",
+                "Check out our Face Cleansing Powder:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>",
+                "Discover more about our Face Cleansing Powder:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>",
+                "Here is some information about our Face Cleansing Powder:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>",
+                "View the Face Cleansing Powder details here:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>",
+                "Our Face Cleansing Powder is available with the following details:<br><img src='/static/Face_cleaning_powder.jpg' alt='Face Cleansing Powder' width='248' height='450'>"
+            ]
+        },
+        {
+            "tag": "Unwanted",
+            "patterns": [
+                "im a",
+                "Show me the",
+                "details",
+                "types of",
+                "type of",
+                "I want to see the",
+                "What does the",
+                "Can you show me the",
+                "Tell me about",
+                "how many types",
+                "Describe the",
+                "What are the features",
+                "Give me details about the",
+                "Show me the different",
+                "What is included",
+                "Details about",
+                "Show me ",
+                "Types of",
+                "What are the flavors",
+                "Can you show me the",
+                "Tell me about the different",
+                "What kinds of ",
+                "Describe the ",
+                "Do you have an image of the",
+                "What are the varieties",
+                "Show me the different",
+                "Give me details about your",
+                "What types of can I find here?",
+                "What kinds of are available?",
+                "List the you have",
+                "What products do you sell?",
+                "What are the options for",
+                "Which are available in your store?",
+                "What are the different types of available?"
+            ],
+            "responses": [
+                "It seems like your request is incomplete. Could you please specify what you're looking for?",
+                "I'm not sure what you mean. Could you provide more details or specify the product?",
+                "Please provide more context so I can assist you better.",
+                "Your request seems to be missing some information. Could you clarify?",
+                "I'm here to help, but I need a bit more detail to understand what you're asking for."
+            ]
+        },
+        {
+            "tag": "types",
+            "patterns": [
+                "how many types",
+                "how many type"
+            ],
+            "responses": [
+                "There are multiple types available. Can you specify which category you're asking about?",
+                "We offer various types. Could you please provide more details?",
+                "There are different types depending on what you're looking for. Could you clarify your question?",
+                "We have several types. Please let me know which one you're interested in."
+            ]
+        },                                                        
+        {
+            "tag": "clarify",
+            "patterns": [],
+            "responses": [
+                "Could you please rephrase your question?",
+                "I didn't quite catch that. Can you clarify?",
+                "Please provide more details so I can assist you better."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "I didn't quite understand that. Could you please provide more details or clarify your question?",
+                "I'm not sure I follow. Can you rephrase or provide more context?",
+                "It seems like your input wasn't clear. Could you please clarify what you need help with?"
+            ]
+        }        
+    ]
+}
